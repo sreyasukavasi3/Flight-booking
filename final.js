@@ -26,7 +26,7 @@ app.use(express.static('Webpage'));
     
 
 app.get('/login_pg', function (req, res) {
-  res.sendFile( path.join(__dirname+ "/" + "htmlfiles/login_pg1.html") );
+  res.sendFile( path.join(__dirname+ "/" + "htmlfiles/login_pg.html") );
 });
 app.post('/verify', function (req, res) {
     var response ={ 

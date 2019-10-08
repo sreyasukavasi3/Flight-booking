@@ -15,16 +15,6 @@ server.listen(8080);
 
 
 app.use(express.static('Webpage'));
-
-
-
-
-
-
-
-
-    
-
 app.get('/login_pg', function (req, res) {
   res.sendFile( path.join(__dirname+ "/" + "htmlfiles/login_pg.html") );
 });
